@@ -1,0 +1,2095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:meta="https://api.nav.gov.hu/definitions/form_xsd_metaschema/1.0"
+        xmlns:tns="https://soap.api.nav.gov.hu/definitions/model/2.0/NAV_F03/1.13"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        targetNamespace="https://soap.api.nav.gov.hu/definitions/model/2.0/NAV_F03/1.13">
+   <import namespace="https://api.nav.gov.hu/definitions/form_xsd_metaschema/1.0"
+           schemaLocation="form_xsd_metaschema.xsd"/>
+   <element name="Doc_NAV_F03"
+            type="tns:Doc_NAV_F03_Type"
+            meta:metaType="DocMetaType">
+      <annotation>
+         <documentation>Fémkereskedelmi/ koncesszori fémkereskedelmi készletnyilvántartás havi zárás</documentation>
+      </annotation>
+   </element>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0106ZA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="0000"/>
+         <enumeration value="7204"/>
+         <enumeration value="7404"/>
+         <enumeration value="7503"/>
+         <enumeration value="7602"/>
+         <enumeration value="7802"/>
+         <enumeration value="7902"/>
+         <enumeration value="8002"/>
+         <enumeration value="8101"/>
+         <enumeration value="8102"/>
+         <enumeration value="8103"/>
+         <enumeration value="8104"/>
+         <enumeration value="8105"/>
+         <enumeration value="8106"/>
+         <enumeration value="8107"/>
+         <enumeration value="8108"/>
+         <enumeration value="8109"/>
+         <enumeration value="8110"/>
+         <enumeration value="8111"/>
+         <enumeration value="8112"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0001BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="206"/>
+         <enumeration value="207"/>
+         <enumeration value="208"/>
+         <enumeration value="209"/>
+         <enumeration value="210"/>
+         <enumeration value="211"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0002BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="206"/>
+         <enumeration value="207"/>
+         <enumeration value="208"/>
+         <enumeration value="209"/>
+         <enumeration value="210"/>
+         <enumeration value="211"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0003BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="206"/>
+         <enumeration value="207"/>
+         <enumeration value="208"/>
+         <enumeration value="209"/>
+         <enumeration value="210"/>
+         <enumeration value="211"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0004BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="206"/>
+         <enumeration value="207"/>
+         <enumeration value="208"/>
+         <enumeration value="209"/>
+         <enumeration value="210"/>
+         <enumeration value="211"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0005BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="206"/>
+         <enumeration value="207"/>
+         <enumeration value="208"/>
+         <enumeration value="209"/>
+         <enumeration value="210"/>
+         <enumeration value="211"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0006BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="206"/>
+         <enumeration value="207"/>
+         <enumeration value="208"/>
+         <enumeration value="209"/>
+         <enumeration value="210"/>
+         <enumeration value="211"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0007BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="206"/>
+         <enumeration value="207"/>
+         <enumeration value="208"/>
+         <enumeration value="209"/>
+         <enumeration value="210"/>
+         <enumeration value="211"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0008BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="206"/>
+         <enumeration value="207"/>
+         <enumeration value="208"/>
+         <enumeration value="209"/>
+         <enumeration value="210"/>
+         <enumeration value="211"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0009BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="206"/>
+         <enumeration value="207"/>
+         <enumeration value="208"/>
+         <enumeration value="209"/>
+         <enumeration value="210"/>
+         <enumeration value="211"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0010BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="206"/>
+         <enumeration value="207"/>
+         <enumeration value="208"/>
+         <enumeration value="209"/>
+         <enumeration value="210"/>
+         <enumeration value="211"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0011BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="206"/>
+         <enumeration value="207"/>
+         <enumeration value="208"/>
+         <enumeration value="209"/>
+         <enumeration value="210"/>
+         <enumeration value="211"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0012BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="206"/>
+         <enumeration value="207"/>
+         <enumeration value="208"/>
+         <enumeration value="209"/>
+         <enumeration value="210"/>
+         <enumeration value="211"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0013BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="206"/>
+         <enumeration value="207"/>
+         <enumeration value="208"/>
+         <enumeration value="209"/>
+         <enumeration value="210"/>
+         <enumeration value="211"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0014BA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="201"/>
+         <enumeration value="202"/>
+         <enumeration value="203"/>
+         <enumeration value="204"/>
+         <enumeration value="205"/>
+         <enumeration value="206"/>
+         <enumeration value="207"/>
+         <enumeration value="208"/>
+         <enumeration value="209"/>
+         <enumeration value="210"/>
+         <enumeration value="211"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0028EA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+         <enumeration value="304"/>
+         <enumeration value="306"/>
+         <enumeration value="307"/>
+         <enumeration value="308"/>
+         <enumeration value="309"/>
+         <enumeration value="310"/>
+         <enumeration value="311"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0015EA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+         <enumeration value="304"/>
+         <enumeration value="306"/>
+         <enumeration value="307"/>
+         <enumeration value="308"/>
+         <enumeration value="309"/>
+         <enumeration value="310"/>
+         <enumeration value="311"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0016EA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+         <enumeration value="304"/>
+         <enumeration value="306"/>
+         <enumeration value="307"/>
+         <enumeration value="308"/>
+         <enumeration value="309"/>
+         <enumeration value="310"/>
+         <enumeration value="311"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0017EA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+         <enumeration value="304"/>
+         <enumeration value="306"/>
+         <enumeration value="307"/>
+         <enumeration value="308"/>
+         <enumeration value="309"/>
+         <enumeration value="310"/>
+         <enumeration value="311"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0018EA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+         <enumeration value="304"/>
+         <enumeration value="306"/>
+         <enumeration value="307"/>
+         <enumeration value="308"/>
+         <enumeration value="309"/>
+         <enumeration value="310"/>
+         <enumeration value="311"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0019EA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+         <enumeration value="304"/>
+         <enumeration value="306"/>
+         <enumeration value="307"/>
+         <enumeration value="308"/>
+         <enumeration value="309"/>
+         <enumeration value="310"/>
+         <enumeration value="311"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0020EA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+         <enumeration value="304"/>
+         <enumeration value="306"/>
+         <enumeration value="307"/>
+         <enumeration value="308"/>
+         <enumeration value="309"/>
+         <enumeration value="310"/>
+         <enumeration value="311"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0021EA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+         <enumeration value="304"/>
+         <enumeration value="306"/>
+         <enumeration value="307"/>
+         <enumeration value="308"/>
+         <enumeration value="309"/>
+         <enumeration value="310"/>
+         <enumeration value="311"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0022EA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+         <enumeration value="304"/>
+         <enumeration value="306"/>
+         <enumeration value="307"/>
+         <enumeration value="308"/>
+         <enumeration value="309"/>
+         <enumeration value="310"/>
+         <enumeration value="311"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0023EA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+         <enumeration value="304"/>
+         <enumeration value="306"/>
+         <enumeration value="307"/>
+         <enumeration value="308"/>
+         <enumeration value="309"/>
+         <enumeration value="310"/>
+         <enumeration value="311"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0024EA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+         <enumeration value="304"/>
+         <enumeration value="306"/>
+         <enumeration value="307"/>
+         <enumeration value="308"/>
+         <enumeration value="309"/>
+         <enumeration value="310"/>
+         <enumeration value="311"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0025EA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+         <enumeration value="304"/>
+         <enumeration value="306"/>
+         <enumeration value="307"/>
+         <enumeration value="308"/>
+         <enumeration value="309"/>
+         <enumeration value="310"/>
+         <enumeration value="311"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0026EA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+         <enumeration value="304"/>
+         <enumeration value="306"/>
+         <enumeration value="307"/>
+         <enumeration value="308"/>
+         <enumeration value="309"/>
+         <enumeration value="310"/>
+         <enumeration value="311"/>
+      </restriction>
+   </simpleType>
+   <simpleType name="Enum_NAV_F03_0BXXXXC0027EA">
+      <annotation>
+         <documentation>Enum értékek </documentation>
+      </annotation>
+      <restriction base="xs:string">
+         <enumeration value="301"/>
+         <enumeration value="302"/>
+         <enumeration value="303"/>
+         <enumeration value="304"/>
+         <enumeration value="306"/>
+         <enumeration value="307"/>
+         <enumeration value="308"/>
+         <enumeration value="309"/>
+         <enumeration value="310"/>
+         <enumeration value="311"/>
+      </restriction>
+   </simpleType>
+   <complexType name="Doc_NAV_F03_Type">
+      <annotation>
+         <documentation>A teljes bizonylat szerkezetet leíró típus</documentation>
+      </annotation>
+      <sequence>
+         <element name="Form_NAV_F03"
+                  type="tns:Form_NAV_F03_Type"
+                  minOccurs="1"
+                  maxOccurs="1"
+                  meta:metaType="FormMetaType">
+            <annotation>
+               <documentation>NAV_F03 részbizonylat</documentation>
+            </annotation>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="Form_NAV_F03_Type">
+      <annotation>
+         <documentation>A teljes nyomtatvány NAV_F03 részbiztonylatának szerkezetét leíró típus.</documentation>
+      </annotation>
+      <sequence>
+         <element name="Block_120003"
+                  type="tns:Block_NAV_F03_120003_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Bejelentés azonosítására vonatkozó adatok</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120001"
+                  type="tns:Block_NAV_F03_120001_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Azonosító adatok</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120005"
+                  type="tns:Block_NAV_F03_120005_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Időszak</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120007"
+                  type="tns:Block_NAV_F03_120007_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Hitelesítésre vonatkozó adatok</documentation>
+            </annotation>
+         </element>
+         <element name="Block_120013"
+                  type="tns:Block_NAV_F03_120013_Type"
+                  minOccurs="0"
+                  meta:metaType="BlockMetaType">
+            <annotation>
+               <documentation>Összesítő adatok</documentation>
+            </annotation>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="Block_NAV_F03_120003_Type">
+      <annotation>
+         <documentation>Bejelentés azonosítására vonatkozó adatok</documentation>
+      </annotation>
+      <all>
+         <element name="FieldGroup_120004"
+                  type="tns:FieldGroup_NAV_F03_120004_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>Bejelentés azonosítására vonatkozó adatok</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_F03_120001_Type">
+      <annotation>
+         <documentation>Azonosító adatok</documentation>
+      </annotation>
+      <all>
+         <element name="FieldGroup_120002"
+                  type="tns:FieldGroup_NAV_F03_120002_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>Azonosító adatok</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_F03_120005_Type">
+      <annotation>
+         <documentation>Időszak</documentation>
+      </annotation>
+      <all>
+         <element name="FieldGroup_120006"
+                  type="tns:FieldGroup_NAV_F03_120006_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>Időszak</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_F03_120007_Type">
+      <annotation>
+         <documentation>Hitelesítésre vonatkozó adatok</documentation>
+      </annotation>
+      <all>
+         <element name="FieldGroup_120009"
+                  type="tns:FieldGroup_NAV_F03_120009_Type"
+                  minOccurs="0"
+                  meta:metaType="FieldGroupMetaType">
+            <annotation>
+               <documentation>Hitelesítésre vonatkozó adatok</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Block_NAV_F03_120013_Type">
+      <annotation>
+         <documentation>Összesítő adatok</documentation>
+      </annotation>
+      <all>
+         <element name="Chain_120015"
+                  type="tns:Chain_NAV_F03_120015_Type"
+                  minOccurs="0"
+                  meta:metaType="ChainMetaType">
+            <annotation>
+               <documentation>Növekedés / Csökkenés</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="Chain_NAV_F03_120015_Type">
+      <annotation>
+         <documentation>Növekedés / Csökkenés</documentation>
+      </annotation>
+      <sequence>
+         <element name="Chain_elem" minOccurs="0" maxOccurs="99">
+            <annotation>
+               <documentation>Lánc ismétlődő elemei</documentation>
+            </annotation>
+            <complexType>
+               <sequence>
+                  <element name="FieldGroup_120019"
+                           type="tns:FieldGroup_NAV_F03_120019_Type"
+                           minOccurs="1"
+                           meta:metaType="FieldGroupMetaType">
+                     <annotation>
+                        <documentation>Növekedés / Csökkenés</documentation>
+                     </annotation>
+                  </element>
+               </sequence>
+            </complexType>
+         </element>
+      </sequence>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F03_120004_Type">
+      <annotation>
+         <documentation>Bejelentés azonosítására vonatkozó adatok</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001F0112ZA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Hiánypótlás (HIANYPOTLAS)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001F0114ZA"
+                  minOccurs="0"
+                  type="xs:boolean"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Javítás (HELYESB)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001E0113ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Hivatkozott beküldési azonosító (IKTATO.KAPCS_XML_ID)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="27"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F03_120002_Type">
+      <annotation>
+         <documentation>Azonosító adatok</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001E0117ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Adószáma (IKTATO.ADOIG)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="11"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0118ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Telephely engedélyszám: (IKTATO.ENGSZ)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="13"/>
+                  <pattern value="[A-Z0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0115ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Neve (IKTATO.NEV)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="70"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0119ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Telephely cím: Irsz. (IKTATO.CIM_1)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="4"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0120ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Város község (IKTATO.CIM_2)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="30"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0121ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>utca út (IKTATO.CIM_3)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="41"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001E0122ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Hsz. (IKTATO.CIM_4)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="10"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F03_120006_Type">
+      <annotation>
+         <documentation>Időszak</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001G0123ZA"
+                  minOccurs="0"
+                  type="xs:date"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Időszak: (IKTATO.BTOL)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001G0124ZA"
+                  minOccurs="0"
+                  type="xs:date"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(IKTATO.BIG)</documentation>
+            </annotation>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F03_120009_Type">
+      <annotation>
+         <documentation>Hitelesítésre vonatkozó adatok</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0A0001H0126ZA"
+                  minOccurs="0"
+                  type="xs:date"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Kelt (IKTATO.BKELT)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0A0001H0125ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Aláírás helysége (KELTHELY)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="30"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0A0001H0127ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Bejelentő azonosító (BEJAZON)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="10"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+   <complexType name="FieldGroup_NAV_F03_120019_Type">
+      <annotation>
+         <documentation>Növekedés / Csökkenés</documentation>
+      </annotation>
+      <all>
+         <element name="Field_0BXXXXB0105ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Lapszám: (LAPSZAM)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0106ZA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0106ZA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Vámtarifaszám: (HS)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0107ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(HSMEGN)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="100"/>
+                  <pattern value="\P{C}+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0001BA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0001BA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM01)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0001CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY01)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0002AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ02)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0002BA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0001BA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM02)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0002CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY02)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0003AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ03)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0003BA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0001BA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM03)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0003CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY03)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0004AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ04)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0004BA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0001BA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM04)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0004CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY04)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0005AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ05)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0005BA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0001BA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM05)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0005CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY05)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0006AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ06)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0006BA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0001BA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM06)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0006CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY06)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0007AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ07)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0007BA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0001BA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM07)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0007CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY07)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0008AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ08)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0008BA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0001BA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM08)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0008CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY08)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0009AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ09)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0009BA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0001BA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM09)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0009CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY09)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0010AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ10)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0010BA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0001BA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM10)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0010CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY10)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0011AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ11)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0011BA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0001BA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM11)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0011CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY11)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0012AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ12)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0012BA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0001BA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM12)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0012CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY12)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0013AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ13)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0013BA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0001BA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM13)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0013CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY13)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0014AA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ14)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0014BA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0001BA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM14)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0014CA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY14)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0108ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Növekedés összesen: (NOVOSSZ2)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0015DA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ15)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0015EA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0028EA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM15)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0015FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY15)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0016DA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ16)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0016EA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0028EA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM16)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0016FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY16)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0017DA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ17)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0017EA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0028EA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM17)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0017FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY17)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0018DA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ18)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0018EA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0028EA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM18)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0018FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY18)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0019DA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ19)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0019EA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0028EA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM19)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0019FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY19)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0020DA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ20)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0020EA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0028EA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM20)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0020FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY20)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0021DA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ21)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0021EA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0028EA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM21)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0021FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY21)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0022DA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ22)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0022EA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0028EA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM22)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0022FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY22)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0023DA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ23)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0023EA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0028EA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM23)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0023FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY23)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0024DA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ24)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0024EA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0028EA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM24)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0024FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY24)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0025DA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ25)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0025EA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0028EA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM25)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0025FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY25)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0026DA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ26)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0026EA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0028EA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM26)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0026FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY26)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0027DA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ27)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0027EA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0028EA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM27)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0027FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY27)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0028DA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Sorsz. (SORSZ28)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0028EA"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_F03_0BXXXXC0028EA"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Jogcím (JOGCIM28)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_0BXXXXC0028FA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Mennyiség (kg) (MENNY28)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0109ZA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Csökkenés összesen: (CSOKKOSSZ2)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0029GA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(NYITOSORSZ)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0029IA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Nyitó készlet: (NYITOOSSZ)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0030GA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(NOVSORSZ)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0030IA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Növekedés: (NOVOSSZ)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0031GA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(CSOKKSORSZ)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0031IA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Csökkenés: (CSOKKOSSZ)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0032GA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>(ZAROSORSZ)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="2"/>
+                  <pattern value="[0-9]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+         <element name="Field_0BXXXXC0032IA"
+                  minOccurs="0"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Záró készlet: (ZAROOSSZ)</documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <minLength value="1"/>
+                  <maxLength value="12"/>
+                  <pattern value="[0-9+\-,.]+"/>
+               </restriction>
+            </simpleType>
+         </element>
+      </all>
+   </complexType>
+</schema>
